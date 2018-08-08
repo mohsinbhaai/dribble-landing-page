@@ -122,12 +122,8 @@ body {
   padding: 0 3px;
   font-size: 14px;
   color: #DDDDDD;
-  /*line-height:  56px;*/
 }
 
-/*#dribbble-nav .ul2 {*/
-  /*margin-left: 335px;*/
-/*}*/
 
 /*-----------------------------
     Logo Section
@@ -332,11 +328,6 @@ body {
   color: #999;
 }
 
-/*.footer .sec-2 .last-p {*/
-  /*font-size: 14px;*/
-  /*color: #999;*/
-/*}*/
-
 /* ----------- End of Sec 2 --------------*/
 
 /*=========================================
@@ -344,19 +335,3 @@ body {
 ==========================================*/
 
 
-/* Start of Media Query*/
-
-/*  small devices (phones, 989px and down) */
-/* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 200px) and (max-width: 950px) {
-  .ul2 {
-    display: none;
-  }
-}​
-
-/*!* Large devices (laptops/desktops, 992px and up) *!*/
-/*@media only screen and (min-width: 992px) {*/
-  /*#dribbble-nav .ul2 {*/
-    /*margin-left: 15%;*/
-  /*}*/
-/*}*/
