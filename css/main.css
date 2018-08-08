@@ -1,0 +1,362 @@
+/*====Start of Reset Styles======*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    background: transparent
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+
+/*=============End Of Reset Styles==============*/
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+/*=======================================
+        Start Of Navbar
+==========================================*/
+
+.navbar {
+  margin: 0 auto;
+  padding: 0 10px 0 30px;
+}
+
+.navbar .navbar-brand {
+  display: block;
+  width: 76px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-image: url(../images/logo-pic.png);
+  -webkit-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  margin-left: 15px;
+}
+
+#dribbble-nav>ul>li {
+  padding: 0 3px;
+  font-size: 14px;
+  color: #DDDDDD;
+  /*line-height:  56px;*/
+}
+
+/*#dribbble-nav .ul2 {*/
+  /*margin-left: 335px;*/
+/*}*/
+
+/*-----------------------------
+    Logo Section
+-------------------------------*/
+
+#logo a {
+  display: block;
+  width: 76px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-image: url(https://cdn.dribbble.com/assets/logo-bw-0200c7483844c355752e89efaa4ba89b83c9c591d70254ba10f4b25d901359d0.gif);
+  -webkit-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.ul2 .seach-bar {
+  width: 190px;
+  padding: 5px 5px 5px 25px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  vertical-align: middle;
+  color: #bbb;
+  border: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 7px 50%;
+  background-image: url(../images/seach-bar.png);
+  border-radius: 4px;
+}
+
+
+/*=======================================
+        End Of Navbar
+==========================================*/
+
+/*=======================================
+        Start Of Designer Sec
+==========================================*/
+
+#designer-sec {
+  background: #252525;;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#designer-sec span {
+  color: #bbb;
+  font-size: 18px;
+}
+
+#designer-sec .continue-btn {
+  height : 17px;
+  width : 74.9844px;
+
+}
+
+#designer-sec button {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  background-color: #DF3E7B;
+  color:  #FFFFFF;
+  padding: 10px 30px 10px 30px;
+  transform : none;
+  transition : all 0s ease 0s;
+
+  border-top-left-radius : 4px;
+  border-top-right-radius : 4px;
+  border-bottom-left-radius : 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+}
+
+/*=======================================
+        End Of Designer Sec
+==========================================*/
+
+/*-----------------------------------------*/
+
+/*=======================================
+        Start Of Hire Designer
+==========================================*/
+
+#hire-design {
+  background-color: #373737;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 0.5rem;
+}
+
+
+/*=======================================
+        End Of Hire Designer
+==========================================*/
+
+/*-----------------------------------------*/
+
+/*=======================================
+        Start of Card
+========================================*/
+
+.card-body {
+  padding: 10px !important;
+  position: relative;
+}
+
+.text-content small , span {
+  font-size: 12px;
+  color:  #777777;
+}
+.text-content {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 6px;
+  right:6px;
+  background: white;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.card-body:hover .text-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*=======================================
+        End of Card
+========================================*/
+
+/*=========================================
+        Start of Footer
+==========================================*/
+
+.footer {
+  color:  #444444;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+
+/*----------------- Sec 1--------------*/
+.footer .sec-1 img{
+  width: 80px;
+  height: 20px;
+  margin-bottom: 8px;
+}
+
+.footer .sec-1 img:hover {
+  opacity: .8;
+}
+
+.footer .sec-1 p:nth-child(2) {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer .sec-1 p:nth-child(3) {
+  font-size: 13px;
+  line-height: 20.8px;
+  margin-bottom: 15px;
+}
+
+.footer .sec-1 p:nth-child(4) img {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  margin-left: 6px;
+  color: #444444;
+  opacity: .37;
+  margin-bottom: 25px;
+}
+
+/* ----------- End of Sec 1 --------------*/
+
+/*-----------------Start Sec 2--------------*/
+
+.footer .sec-2 h3 {
+  margin: 2px 0 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444444;
+}
+
+.footer .sec-2 .div-1, .div-2, .div-3 {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #999;
+}
+
+/*.footer .sec-2 .last-p {*/
+  /*font-size: 14px;*/
+  /*color: #999;*/
+/*}*/
+
+/* ----------- End of Sec 2 --------------*/
+
+/*=========================================
+        End of Footer
+==========================================*/
+
+
+/* Start of Media Query*/
+
+/*  small devices (phones, 989px and down) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 200px) and (max-width: 950px) {
+  .ul2 {
+    display: none;
+  }
+}​
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {*/
+  /*#dribbble-nav .ul2 {*/
+    /*margin-left: 15%;*/
+  /*}*/
+/*}*/
